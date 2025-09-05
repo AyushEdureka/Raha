@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Anchor : Link (social media , Read more Buttons) : Link one page to another -->
+
+    <a style="text-decoration: none;" href="https://www.amazon.com/">Order Now</a>
+
+    <button><a style="text-decoration: none;" href="https://www.amazon.com/">Read more</a></button>
+
+    <!-- LIST- Ordered list - ol and Unordered - ul -->
+    <h3>Steps to Order:</h3>
+    <ol type="1">
+        <li>Select Food</li>
+        <li>Add To Cart</li>
+        <li>Checkout</li>
+     </ol>
+
+
+     <h3>Popular Dishes:</h3>
+    <ul type="none">
+        <li>Pizzza</li>
+        <li>Burger</li>
+        <li>Pasta</li>
+    </ul>
+
+
+    <!-- INPUT : To Take The input From user -->
+     <form>
+    <label>Username</label>
+    <input type="text"  placeholder="Enter your Name" required>
+
+    <label>Email</label>
+    <input type="email"  placeholder="Enter your email" required>
+
+     <label>Password</label>
+    <input type="password"  placeholder="Enter your Password" required>
+
+     <label>Age/Number</label>
+    <input type="number"  placeholder="Enter your Age" required>
+
+    <label>Hobbies</label>
+    <input type="checkbox">Reading
+    <input type="checkbox">Cycling
+    <input type="checkbox">Coding
+    
+    <label>Gender:</label>
+    <input type="radio" name="Gender" >Male
+    <input type="radio" name="Gender" >Female
+
+     <label>Resume/File</label>
+    <input type="file"  required>
+
+    <button type="submit">SignIn</button>
+    </form>
+
+    <!-- Table- Rows - cols -->
+     <table border="1" cellspacing="5" cellpadding="10" bordercolor="blue" width="80%"  align="center" bgcolor="yellow">
+
+        <caption><b>Food Menu</b></caption>
+        <!-- caption = table title
+        b = makes the text bold -->
+         
+        <thead>
+        <tr>    
+            <th>Food Item</th> 
+            <th>Price</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr align="center">                  
+            <td>Pizza</td>   
+            <td>$20</td>
+        </tr>
+
+        <tr align="center">                  
+            <td>Pasta</td>   
+            <td>$10</td>
+        </tr>
+        </tbody>
+     </table>
+
+
+     <!-- Video Format is mp4  -->
+     <video  controls  autoplay muted loop   height="350" width="350">
+     <source src="./3125427-uhd_3840_2160_25fps.mp4" type="video/mp4"  >
+     </video>
+
+     <audio controls >
+        <source src="./a6-82015.mp3" type="audio/mp3" >
+     </audio>
+
+    <iframe width="500" height="257" src="https://www.youtube.com/embed/atOgj_ZaO7M" title="4K HDR - Chitauri Invasion - The Avengers (2012)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe src="https://www.google.com/maps" width="400" height="300"></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188820.85662590814!2d-71.13483235904121!3d42.314247505285614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3652d0d3d311b%3A0x787cbf240162e8a0!2sBoston%2C%20MA%2C%20USA!5e0!3m2!1sen!2sin!4v1756952496640!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.3063911318873!2d-74.04937131362823!3d40.68924929764647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2sStatue%20of%20Liberty!5e0!3m2!1sen!2sin!4v1756952566534!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+
+    <progress value="70"  max="100"></progress>
+    <!-- min = 0 
+    max- 100 -->
+
+    <meter value="0.6" max="1"></meter>
+
+    <!-- min= 0
+    max= 1 or min =0 and max= 100 -->
+   
+
+    <details>
+        <summary>Read More</summary>
+        <p>This dish is made with fresh indgredein</p>
+    </details>
+
+
+
+   
+
+    
+</body>
+</html>

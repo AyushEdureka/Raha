@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie</title>
+</head>
+<body>
+    <h1>HTML: Hyper Text Markup Lang</h1>
+    <h1>Netflix</h1>
+    <h2>Netflix</h2>
+    <h3>Netflix</h3>
+    <h4>Netflix</h4>
+    <h5>Netflix</h5>
+    <h6>Netflix</h6>
+    <!-- h1 tag will take new line by defualt -->
+    
+    <p>Why HTML Matters for a fullStack Developer: <br><br><br>
+        1.Fronetnd foundation : REACT, ANGULAR,Vue  <br>
+        2.Proper Tags Helps Screen readers,SEO and maintain Code <br>
+        3.Connectivity <br>
+        4.Performance and Securrity<br>
+        5.Basic Building  <br> My name is Raha <br>
+    </p>
+
+
+    <!-- IMAGE -->
+    <!-- TagName Attribute -->
+
+     <img src="./Pizza.jpg" alt="Tap to Retry" height="250" width="250">
+     <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGl6emF8ZW58MHx8MHx8fDA%3D">
+
+   
+        <div style="background-color: red; color: white; width: 350px;">
+        <h1>Pizza</h1>
+         <img src="./Pizza.jpg" alt="Tap to Retry" height="250" width="250">
+         <p>Price : $5</p>
+         <button>AddToCart</button>
+         </div>
+       <div style="background-color: red; color: white; width: 350px;">
+        <h1>Pasta</h1>
+         <img src="./Pizza.jpg" alt="Tap to Retry" height="250" width="250">
+         <p>Price : $5</p>
+         <button>AddToCart</button>
+         </div>
+          <div style="background-color: red; color: white; width: 350px;">
+        <h1>Burger</h1>
+         <img src="./Pizza.jpg" alt="Tap to Retry" height="250" width="250">
+         <p>Price : $5</p>
+         <button>AddToCart</button>
+         </div>
+
+
+        <p> This is span Tag   <span style="background-color: blue;">Login</span> I will only Take Required amount of width </p>
+        <button><span>Cart 1</span></button>
+</body>
+</html>
