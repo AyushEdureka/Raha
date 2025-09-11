@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: beige;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .product{
+            border: 1px solid black;
+            width: 300px;
+            overflow: hidden;
+            padding: 15px;
+            text-align: center;
+            margin: 15px;
+            border-radius: 15px;
+            box-shadow: 0 20px 20px rgba(227, 8, 8, 0.3);
+            transition: transform  0.8s ease  ;
+            
+
+        }
+
+        .product img {
+            width: 100%;
+            object-fit: cover;
+            height: 250px;
+
+        }
+
+        .product h2{
+           font-style: italic;
+           color: brown;
+        }
+
+        .product:hover{
+            /* transform: translateY(-10px);  Lift Up */
+
+            /* transform: scale(1.03)  Zoom In(1-originalsize. chnage in size) */
+
+            /* transform: rotateY(10deg) rotateX(5deg);   Titl/3D*/
+
+            /* transform: translateY(-10px) scale(1.05); */
+
+            /* transform: skewY(3deg) scale(1.03); */
+
+            transform: rotateY(180deg); background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+        </ul>
+    </nav>
+    
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBob25lfGVufDB8fDB8fHww">
+    <h2>Phone</h2>
+    <p><strong>Price:</strong>$100</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNob2VzfGVufDB8fDB8fHww">
+    <h2>Shoes</h2>
+    <p><strong>Price:</strong>$60</p>
+    <button>Buy Now</button>
+  </div>
+
+
+  <div class="product">
+    <img src="https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVhZHBob25lfGVufDB8fDB8fHww">
+    <h2>Headphone</h2>
+    <p><strong>Price:</strong>$50</p>
+    <button>Buy Now</button>
+  </div>
+
+</body>
+</html>
