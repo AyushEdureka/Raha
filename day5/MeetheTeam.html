@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            
+        }
+
+        h1{
+            text-align: center;
+            color:#333;
+            margin-bottom: 30px;
+        }
+
+        .team{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .card{
+            
+            width: 220px;
+            text-align: center;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 6px 7px white;
+            transition: transform 0.5s;
+        }
+
+        .card img {
+            border-radius: 50%;
+        }
+
+        .card:hover{
+            transform: scale(1.07);
+            background-color: lightgoldenrodyellow;
+        }
+
+        .card h3{color: blue;}
+
+        .card p {
+            color: #666;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meet The Team </h1>
+
+    <div class="team">
+       <div class="card">
+        <img src="https://i.pravatar.cc/100?img=3">
+        <h3>John</h3>
+        <p>Frontend Developer</p>
+        <button>Linkdln</button>
+     </div>
+      <div class="card">
+        <img src="https://i.pravatar.cc/100?img=3">
+        <h3>Mike</h3>
+        <p>UI/UX Developer</p>
+        <button>Linkdln</button>
+     </div>
+      <div class="card">
+        <img src="https://i.pravatar.cc/100?img=3">
+        <h3>Charlie</h3>
+        <p>AI Developer</p>
+        <button>Linkdln</button>
+     </div>
+      <div class="card">
+        <img src="https://i.pravatar.cc/100?img=3">
+        <h3>Bob</h3>
+        <p>Backend Developer</p>
+        <button>Linkdln</button>
+     </div>
+   
+
+    </div>
+</body>
+</html>
