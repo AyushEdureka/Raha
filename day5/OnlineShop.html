@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            
+            margin: 0;
+
+        }
+
+        h2{
+            text-align: center;
+            margin-bottom: 30px;
+            color: #222;
+            font-family: cursive;
+        }
+
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+            gap: 30px;
+            padding: 10px;
+        }
+
+        .product{
+            background-color: white;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .product img{
+            object-fit: cover;
+            width: 100%;
+            height: 200px;
+            border-radius: 12px;
+        }
+
+        .product h2 {
+            color: #333;
+            margin: 15px;
+        }
+
+        .product p {
+            color: #777;
+            font-size: 14px;
+            margin: 15px;
+        }
+
+       button{
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        padding: 12px;
+        margin-bottom: 15px;
+        cursor: pointer;
+       }
+
+
+
+    </style>
+</head>
+<body>
+    <h2>Product </h2>
+
+    <div class="grid">
+
+     <div class="product">
+        <img src="https://images.unsplash.com/photo-1617043983671-adaadcaa2460?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNtYXJ0JTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D">
+        <h3>Watch</h3>
+        <p>$59.99</p>
+        <button>Buy Now</button>
+     </div>
+
+
+      <div class="product">
+    <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBob25lfGVufDB8fDB8fHww">
+    <h3>Phone</h3>
+    <p><strong>Price:</strong>$100</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNob2VzfGVufDB8fDB8fHww">
+    <h3>Shoes</h3>
+    <p><strong>Price:</strong>$60</p>
+    <button>Buy Now</button>
+  </div>
+
+
+  <div class="product">
+    <img src="https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVhZHBob25lfGVufDB8fDB8fHww">
+    <h3>Headphone</h3>
+    <p><strong>Price:</strong>$50</p>
+    <button>Buy Now</button>
+  </div>
+
+    </div>
+</body>
+</html>
