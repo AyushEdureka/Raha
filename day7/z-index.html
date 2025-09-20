@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            opacity: 0.8;
+        }
+
+        .red{
+            background: red;
+            z-index: 1;
+        }
+
+        .blue{
+            background: blue;
+            left: 100px;
+            z-index: 3;
+        }
+
+        .green{
+            background:green;
+            left: 200px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <div class="box red"></div>
+    <div class="box blue"></div>
+    <div class="box green"></div>
+    </div>
+</body>
+</html>

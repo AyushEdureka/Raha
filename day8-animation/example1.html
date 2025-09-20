@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: relative;
+            animation-name: rainbow;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+
+         .box1{
+            width: 100px;
+            height: 100px;
+            background: yellow;
+            margin:10px;
+        }
+
+        @keyframes rainbow{
+            /* body- Effects */
+
+            /* 2 colors only
+             from {background-color: red;}
+
+            to   {background-color: blue;} */
+
+
+           /* 4 colors
+            0%  {background: red;}
+           25% { background: green;}
+           50% { background: pink;}
+           100% { background-color: blue;} */
+
+
+           /* MoveRight
+           from  {left:0;}
+           to   {left: 300px;} */
+
+          
+          
+           /* Bounce
+
+           0%   {top:0}
+           50%  { top: 200px;}
+           100% {top: 0;} */
+
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+
+    <div class="box1"></div>
+
+    <p><strong>Note:</strong> Once the Animation is completed it will come back to its 
+    original default form It is done by only @keyframe Tag
+    </p>
+
+
+</body>
+</html>
