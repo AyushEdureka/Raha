@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        .content{
+            margin-top: 70px;
+            padding: 20px;
+        }
+
+        .static-box{
+            background: lightblue;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .relative-btn{
+            position: relative;
+            background: green;
+            color: white;
+            border: none;
+            padding: 12px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .relative-btn .icon{
+            position: relative;
+            left: 5px;
+        }
+
+
+        .product{
+            position: relative;
+            width: 150px;
+            height: 150px;
+            background: lightgray;
+            margin: 20px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .badge{
+            font-size: 14px;
+            padding: 5px 10px;
+            position: absolute;
+            top: 0;
+            right: 5px;
+        }
+
+        .section-title{
+            background: lightgreen;
+            padding: 10px;
+            margin: 20px 0;
+            position: sticky;
+            top: 60px;   /*sticky below navbar */
+            z-index: 500;
+        }
+
+        .filter{
+            height: 600px;
+            background: #f9f9f9;
+            border: 1px dashed #ccc;
+            padding-top: 250px;
+            color: #888;
+        }
+
+        .chat-btn{
+            background: #007bff;
+            font-size: 20px;
+            padding: 15px 20px;
+            cursor: pointer;
+            color: white;
+            border-radius: 50%;
+            width: 60px;
+            text-align: center;
+            position: fixed;
+            bottom: 20px;
+            left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Fixed Navbar -->
+     <div class="navbar">Fixed Navbar(Always Visible)</div>
+
+     <div class="content">
+        <!-- Static -->
+         <div class="static-box">
+            <h3>Static </h3>
+            <p>This Blog post is using <b>static position</b>, means it just flows normally like any other text or list</p>
+
+         </div>
+
+
+        <!-- Realtive -->
+         <h3>Relative</h3>
+         <button class="relative-btn">
+            Buy Now<span class="icon">🛒</span>
+         </button>
+        <p>(The 🛒 icon is slightly shift using <b>reltive</b>  position)</p>
+
+
+        <!-- Absolute -->
+         <h3>Absolute</h3>
+         <div class="product">
+            Product
+            <div class="badge">♥</div>
+        </div>
+        <p>(This red badge uses <b>Absolute</b> to sit in the corner of the product box)</p>
+
+        <!-- Sticky -->
+         <div class="section-title">Sticky Section Title</div>
+         <div class="filter">Scroll Downw.... this green title will stick until section ends</div>
+     </div>
+
+     <!-- Fixed Chat Button -->
+      <div class="chat-btn">🧾</div>
+</body>
+</html>
